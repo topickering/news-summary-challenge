@@ -1,9 +1,9 @@
 # News Summary
 
 A single page web application which:
-* grabs headlines from the Guardian newspaper API and displays them;
+* grabs politics headlines from the Guardian newspaper API and displays them;
 * allows user to click on a headline and see a summary of the article;
-* each summary page provides a link to the original article. 
+* each summary page provides a link to the original article.
 
 
 # News Summary challenge
