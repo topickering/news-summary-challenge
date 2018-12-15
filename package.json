@@ -1,0 +1,22 @@
+{
+  "name": "news-summary-challenge",
+  "version": "1.0.0",
+  "description": "A news summary app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topickering/news-summary-challenge.git"
+  },
+  "author": "Tom Pickering",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/topickering/news-summary-challenge/issues"
+  },
+  "homepage": "https://github.com/topickering/news-summary-challenge#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
