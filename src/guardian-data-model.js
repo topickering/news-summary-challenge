@@ -23,7 +23,7 @@
       var self = this
       var request = new XMLHttpRequest();
 
-      request.open('GET', 'http://content.guardianapis.com/search?section=politics&page=1&page-size=10&show-fields=headline&api-key=', true);
+      request.open('GET', 'http://content.guardianapis.com/search?section=politics&page=1&page-size=10&show-fields=headline&api-key=', false);
       request.onload = function () {
         var data = JSON.parse(this.response);
         self.jsonArray = data.response.results;

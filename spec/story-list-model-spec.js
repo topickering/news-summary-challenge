@@ -9,9 +9,16 @@ var assert = {
   }
 };
 
+var sl = new StoryList();
+
 function testStoryListInit() {
-  var sl = new StoryList();
   assert.isTrue(sl.stories.length == 0);
 };
 
+function testGetStories() {
+  sl.getStories();
+  assert.isTrue(sl.stories.length == 10);
+};
+
 testStoryListInit();
+testGetStories();
