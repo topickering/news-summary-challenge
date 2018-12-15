@@ -1,3 +1,11 @@
+# News Summary
+
+A single page web application which:
+* grabs headlines from the Guardian newspaper API and displays them;
+* allows user to click on a headline and see a summary of the article;
+* each summary page provides a link to the original article. 
+
+
 # News Summary challenge
 
 * Challenge time: rest of the day and weekend, until Monday 9am.
